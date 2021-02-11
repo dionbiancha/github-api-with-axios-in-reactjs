@@ -28,20 +28,20 @@ function App() {
   }, []);
 
   return (
-    <div className="container App">
-    <div className="row">
-      {githubData.map((name) => (
-        <div className="col-md-12" key={name.id}>
-          <img src={name.owner.avatar_url} alt="avatar"/>
-          <ApiItem title="Title: " item={name.name} />
-          <ApiItem title="User: " item={name.owner.login} />
-          <ApiItem title="Description: " item={name.description} />
-          <ApiItem title="Stars: " item={name.stargazers_count} />
-          <ApiItem title="Forks: " item={name.forks_count} />
-        </div>
-      )
-      )}
-    </div>
+    <div className="container">
+      <div className="row">
+        {githubData.map((name) => (
+          <div className="row-item" key={name.id}>
+            <img src={name.owner.avatar_url} alt="avatar"/>
+            <ApiItem title="Title: " item={name.name} />
+            <ApiItem title="User: " item={name.owner.login} />
+            <ApiItem title="Description: " item={name.description} />
+            <ApiItem title="Stars: " item={name.stargazers_count} />
+            <ApiItem title="Forks: " item={name.forks_count} />
+          </div>
+        )
+        )}
+      </div>
     </div>  
   );
 }

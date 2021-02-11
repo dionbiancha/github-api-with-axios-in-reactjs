@@ -3,7 +3,7 @@ import React from 'react';
 
 const ApiItem = (props) => {
   return <p>
-    {props.title}
+    <b>{props.title}</b>
     {props.item}</p>
 }
 
