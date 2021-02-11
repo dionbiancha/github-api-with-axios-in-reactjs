@@ -26,6 +26,10 @@
   <img alt="GitHub" src="https://img.shields.io/github/license/dionbiancha/github-api-with-axios-in-reactjs.svg">
 </p>
 
+<p align="center">
+  <img alt="Gif" src="https://res.cloudinary.com/dionbiancha/image/upload/v1613009342/github/1234_cvsfm4.gif">
+</p>
+
 
 <p align="center">
   <a href="#computer-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
